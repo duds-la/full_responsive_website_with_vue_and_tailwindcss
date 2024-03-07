@@ -37,7 +37,8 @@
                         <li>
                             <button
                                 class="bg-color-secondary px-9 py-3 rounded-md capitalize font-semibold hover:opacity-85 ease-in duration-100">
-                                FREE Trial</button>
+                                FREE Trial
+                            </button>
                         </li>
                     </ul>
                 </div>
