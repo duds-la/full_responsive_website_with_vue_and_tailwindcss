@@ -1,10 +1,8 @@
 <template>
     <div class="relative">
-        <div class="w-80 h-80 bg-color-blob absolute top-0 -left-5 -z-5 blur-2xl opacity-30 overflow-hidden rounded-full
-        "></div>
+        <div class="blob1"></div>
+        <div class="blob2"></div>
 
-        <div class="w-80 h-80 bg-color-secondary absolute bottom-10 right-0 -z-5 blur-2xl opacity-30 overflow-hidden rounded-full
-        "></div>
         <div class="container py-20 z-50">
             <div class="flex flex-col items-center z-20 md:flex-row">
                 <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
