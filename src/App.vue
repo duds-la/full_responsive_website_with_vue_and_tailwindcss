@@ -6,6 +6,8 @@
       <Features />
       <SavingMoney />
       <HowItWorks />
+      <Testimonial />
+
 
     </div>
 </template>
@@ -16,6 +18,7 @@ import Home from './components/Home.vue';
 import Features from './components/Features.vue';
 import SavingMoney from './components/SavingMoney.vue';
 import HowItWorks from './components/HowItWorks.vue';
+import Testimonial from './components/Testimonial.vue';
 
 
 </script>

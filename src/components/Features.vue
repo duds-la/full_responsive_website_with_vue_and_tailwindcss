@@ -9,7 +9,7 @@
             <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6
             lg:px-8 ">
                 <!--Card number 1-->
-                <div v-for="card in cards" class="border-2 border-solid border-color-gray text-center py-20 px-5
+                <div v-for="(card, index) in cards" :key="index" class="border-2 border-solid border-color-gray text-center py-20 px-5
                 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
                     <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6 ">
                         <i :class="card.icon"></i>
