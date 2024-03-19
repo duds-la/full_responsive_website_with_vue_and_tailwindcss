@@ -52,6 +52,5 @@ const selectedCommentIndex = ref(0);
 
 function changeComment(index) {
     selectedCommentIndex.value = index;
-    console.log(selectedCommentIndex.value,index)
 }
 </script>
